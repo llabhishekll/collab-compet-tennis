@@ -20,13 +20,19 @@ The task is episodic, and to calculate the reward for each episode we need to ta
 
 ### Getting Started
 
-Download the environment from one of the links below. You need only select the environment that matches your operating system:
+Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+
 - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
 - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
-- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
 - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
 
-Install the python with the required virtual environment to execute the jupyter notebook using `requirement.txt`.
+Install the [python](https://www.anaconda.com/products/individual) with the required virtual environment to execute the jupyter notebook using `requirement.txt`.
+
+```shell
+$ conda create --name RL --file requirement.txt
+$ conda activate RL
+$ jupyter notebook Tennis.ipynb
+```
 
 Follow the instructions in `Tennis.ipynb` to get started with training or execution of the trained agent.
 
